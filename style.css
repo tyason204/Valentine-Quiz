@@ -189,10 +189,17 @@ h1 {
 .hello-kitty {
   position: absolute;
   top: -10%;
-  width: 200px; /* Adjust the size as needed */
+  width: 100px; /* Adjust the size as needed */
   height: auto; /* Keep the aspect ratio */
   animation: fallKitty linear infinite; /* Apply falling animation */
   user-select: none; /* Prevent image selection */
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .hello-kitty {
+    width: 80px; /* Smaller size for mobile */
+  }
 }
 
 @keyframes fallKitty {
