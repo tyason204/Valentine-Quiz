@@ -56,7 +56,12 @@ const questions = [
         type: "choice"
     },
     {
-        question: "What part of my body do you like the most?",
+        question: "How much do i love you?",
+        correctAnswers: ["endlessly but which Is less than your love 😼"],
+        answers: ["little 😱", "much which is enough for you 😩", "most 🤩", "endlessly but which Is less than your love 😼"],
+        type: "choice"
+    },
+    {question: "What part of my body do you like the most?",
         correctAnswers: ["Hands", "Hair", "face", "everythinggggg"],
         answers: ["Hands", "Hair", "face", "everythinggggg"],
         type: "choice"
