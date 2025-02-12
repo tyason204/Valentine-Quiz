@@ -33,7 +33,7 @@ const questions = [
     },
     {
         question: "What is the best name I call you with?",
-        correctAnswers: ["babe"],
+        correctAnswers: ["babe, "whale", "fish", "bhalu"],
         answers: ["babe", "whale", "fish", "bhalu"],
         type: "choice"
     },
@@ -51,27 +51,44 @@ const questions = [
     },
     {
         question: "How much do you love me?",
-        correctAnswers: ["endlessly but which Is less than my love 😼"],
-        answers: ["little 😱", "much which is enough for me 😩", "most 🤩", "endlessly but which Is less than my love 😼"],
+        correctAnswers: ["endlessly😼"],
+        answers: ["little 😱", "enough", "most 🤩", "endlessly😼"],
         type: "choice"
     },
     {
         question: "How much do i love you?",
-        correctAnswers: ["endlessly but which Is less than your love 😼"],
-        answers: ["little 😱", "much which is enough for you 😩", "most 🤩", "endlessly but which Is less than your love 😼"],
+        correctAnswers: ["endlessly😼"],
+        answers: ["little 😱", "enough", "most 🤩", "endlessly😼"],
         type: "choice"
     },
     {question: "What part of my body do you like the most?",
-        correctAnswers: ["Hands", "Hair", "face", "everythinggggg"],
-        answers: ["Hands", "Hair", "face", "everythinggggg"],
+        correctAnswers: ["Hands", "Hair", "face", "everythinggg"],
+        answers: ["Hands", "Hair", "face", "everythinggg"],
         type: "choice"
     },
     {
         question: "What do you think which body part I like of yours?",
-        correctAnswers: ["everyythinggggggggg"],
-        answers: ["Hair", "face", "🍑🍒", "everyythinggggggggg"],
+        correctAnswers: ["everyythinggg"],
+        answers: ["Hair", "face", "🍑🍒", "everyythinggg"],
         type: "choice"
     },
+    {
+        question: "One thing you dont like about me",
+        correctAnswers: ["*"],
+        type: "text"
+    },
+    {
+        question: "Whats one thing i cant live without it ?",
+        correctAnswers: ["Lana", "my GF", "babe ofc"],
+        answer: ["Lana", "my GF", "babe ofc"],
+        type: "choice"
+    }, 
+    {
+        question: "What one princess dress would you choose for me?( IF SOMEHOW YOU MAkE ME AGREEE)",
+        correctAnswers: ["*"],
+        type: "text"
+    },
+    
     {
         question: "Describe one of our best moments that will stay in your heart?",
         correctAnswers: ["*"],
