@@ -246,116 +246,87 @@ h1 {
 
 /* Random positions and delays for Hello Kitty images */
 .hello-kitty:nth-child(1) {
-  left: 5%;
-  animation-duration: 5s;
-  animation-delay: 0s;
-}
-
-.hello-kitty:nth-child(2) {
-  left: 10%;
-  animation-duration: 5s;
-  animation-delay: 2s;
-}
-
-.hello-kitty:nth-child(3) {
-  left: 15%;
-  animation-duration: 7s;
+  left: 12%;
+  animation-duration: 6s;
   animation-delay: 1s;
 }
 
-.hello-kitty:nth-child(4) {
-  left: 20%;
-  animation-duration: 8s;
+.hello-kitty:nth-child(2) {
+  left: 28%;
+  animation-duration: 7s;
   animation-delay: 3s;
 }
 
+.hello-kitty:nth-child(3) {
+  left: 45%;
+  animation-duration: 8s;
+  animation-delay: 2s;
+}
+
+.hello-kitty:nth-child(4) {
+  left: 60%;
+  animation-duration: 9s;
+  animation-delay: 4s;
+}
+
 .hello-kitty:nth-child(5) {
-  left: 25%;
+  left: 75%;
   animation-duration: 10s;
   animation-delay: 5s;
 }
 
 .hello-kitty:nth-child(6) {
-  left: 30%;
-  animation-duration: 9s;
-  animation-delay: 4s;
+  left: 18%;
+  animation-duration: 5s;
+  animation-delay: 0s;
 }
 
 .hello-kitty:nth-child(7) {
-  left: 35%;
+  left: 33%;
   animation-duration: 6s;
   animation-delay: 6s;
 }
 
 .hello-kitty:nth-child(8) {
-  left: 40%;
+  left: 50%;
+  animation-duration: 7s;
+  animation-delay: 7s;
+}
+
+.hello-kitty:nth-child(9) {
+  left: 65%;
   animation-duration: 8s;
   animation-delay: 8s;
 }
 
-.hello-kitty:nth-child(9) {
-  left: 45%;
-  animation-duration: 10s;
-  animation-delay: 7s;
-}
-
 .hello-kitty:nth-child(10) {
-  left: 50%;
-  animation-duration: 7s;
-  animation-delay: 10s;
-}
-
-.hello-kitty:nth-child(11) {
-  left: 55%;
+  left: 80%;
   animation-duration: 9s;
   animation-delay: 9s;
 }
 
+.hello-kitty:nth-child(11) {
+  left: 22%;
+  animation-duration: 10s;
+  animation-delay: 10s;
+}
+
 .hello-kitty:nth-child(12) {
-  left: 60%;
-  animation-duration: 7s;
-  animation-delay: 4s;
+  left: 38%;
+  animation-duration: 5s;
+  animation-delay: 1s;
 }
 
 .hello-kitty:nth-child(13) {
-  left: 65%;
-  animation-duration: 10s;
+  left: 55%;
+  animation-duration: 6s;
   animation-delay: 2s;
 }
 
 .hello-kitty:nth-child(14) {
   left: 70%;
-  animation-duration: 9s;
-  animation-delay: 8s;
+  animation-duration: 7s;
+  animation-delay: 3s;
 }
 
-.hello-kitty:nth-child(14) {
-  left: 75%;
-  animation-duration: 9s;
-  animation-delay: 5s;
-}
-
-.hello-kitty:nth-child(14) {
-  left: 80%;
-  animation-duration: 9s;
-  animation-delay: 7s;
-}
-
-.hello-kitty:nth-child(14) {
-  left: 85%;
-  animation-duration: 9s;
-  animation-delay: 8s;
-}
-
-.hello-kitty:nth-child(14) {
-  left: 90%;
-  animation-duration: 9s;
-  animation-delay: 6s;
-}
-
-.hello-kitty:nth-child(14) {
-  left: 95%;
-  animation-duration: 9s;
-  animation-delay: 5s;
-}
 /* You can continue adding more Hello Kitty images by copying and adjusting the styles */
