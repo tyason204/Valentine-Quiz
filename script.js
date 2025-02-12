@@ -236,5 +236,24 @@ function showConfetti() {
     setTimeout(() => confetti.clear(), 5000); // Stop confetti after 5 seconds
 }
 
+document.querySelectorAll(".kitty").forEach(kitty => {
+    kitty.addEventListener("click", function(event) {
+        let x = event.clientX;
+        let y = event.clientY;
+
+        // Trigger confetti at the click position
+        confetti({
+            particleCount: 100,
+            spread: 70,
+            origin: { x: x / window.innerWidth, y: y / window.innerHeight }
+        });
+
+        // Optional: Hide Hello Kitty after the effect
+        setTimeout(() => {
+            this.style.display = "none";
+        }, 500);
+    });
+});
+
 // Start the quiz
 displayQuestion();
