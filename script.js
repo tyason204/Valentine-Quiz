@@ -236,8 +236,8 @@ function showConfetti() {
     setTimeout(() => confetti.clear(), 5000); // Stop confetti after 5 seconds
 }
 
-document.querySelectorAll(".kitty").forEach(kitty => {
-    kitty.addEventListener("click", function(event) {
+document.querySelectorAll(".kitty").forEach(hellokitty => {
+    hellokitty.addEventListener("click", function(event) {
         let x = event.clientX;
         let y = event.clientY;
 
@@ -254,6 +254,15 @@ document.querySelectorAll(".kitty").forEach(kitty => {
         }, 500);
     });
 });
-
+document.querySelectorAll(".kitty").forEach((hellokitty) => {
+    hellokitty.addEventListener("click", () => {
+        console.log("Hello Kitty clicked!"); // Check if this logs
+        confetti({
+            particleCount: 100,
+            spread: 70,
+            origin: { x: event.clientX / window.innerWidth, y: event.clientY / window.innerHeight }
+        });
+    });
+});
 // Start the quiz
 displayQuestion();
