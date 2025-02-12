@@ -37,6 +37,15 @@ body {
 
 }
 
+.options-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+
 
 /* Heading */
 h1 {
@@ -205,6 +214,20 @@ h1 {
 @media (max-width: 768px) {
   .hello-kitty {
     width: 80px; /* Smaller size for mobile */
+    @media (max-width: 600px) {
+    .options-container {
+        grid-template-columns: 1fr; /* Change to 1 column for small screens */
+    }
+    
+    .quiz-container {
+        padding: 10px;
+    }
+    
+    button {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
   }
 }
 
