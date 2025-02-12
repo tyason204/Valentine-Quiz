@@ -28,12 +28,7 @@ body {
   z-index: 2;
   overflow-y: auto; /* Add scrollbar if content overflows */
   max-height: 90vh; /* Limit container height */
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
-    min-height: 100vh; /* Full screen height */
-    padding: 20px;
+
 
 }
 
