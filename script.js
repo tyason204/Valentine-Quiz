@@ -84,11 +84,15 @@ const questions = [
         type: "choice"
     }, 
     {
-        question: "What one princess dress would you choose for me?( IF SOMEHOW YOU MAkE ME AGREEE)",
+        question: "What one Disney princess dress would you choose for me?( IF SOMEHOW YOU MAkE ME AGREEE)",
         correctAnswers: ["*"],
         type: "text"
     },
-    
+     {
+        question: "What one Disney princ would i be?",
+        correctAnswers: ["*"],
+        type: "text"
+    },
     {
         question: "Describe one of our best moments that will stay in your heart?",
         correctAnswers: ["*"],
