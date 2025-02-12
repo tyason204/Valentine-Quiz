@@ -157,7 +157,6 @@ const questions = [
     },
 ];
 
-// Display the current question
 function displayQuestion() {
     const questionBox = document.getElementById("question");
     const answerContainer = document.querySelector(".answers");
@@ -167,9 +166,12 @@ function displayQuestion() {
     const current = questions[currentQuestion];
     questionBox.textContent = current.question;
 
+    // Clear previous answers
     answerContainer.innerHTML = "";
     inputBox.style.display = "none";
     feedbackBox.textContent = "";
+
+    console.log("Current Question:", current); // Debugging
 
     if (current.type === "choice") {
         current.answers.forEach(answer => {
