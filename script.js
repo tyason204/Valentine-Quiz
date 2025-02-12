@@ -1,7 +1,7 @@
 let currentQuestion = 0;
 
 const questions = [
-    {
+      {
         question: "Are you ready to go ahead?",
         correctAnswers: ["Yes"],
         answers: ["Yes", "No"],
@@ -235,7 +235,6 @@ function showConfetti() {
 
     setTimeout(() => confetti.clear(), 5000); // Stop confetti after 5 seconds
 }
-
 
 // Start the quiz
 displayQuestion();
