@@ -16,7 +16,7 @@ body {
 
 /* Container for the quiz */
 .container {
-  max-width: 600px;
+  max-width: 500px;
   margin: 50px auto;
   background: #fff;
   padding: 20px;
@@ -34,7 +34,7 @@ body {
 /* Heading */
 h1 {
   color: #df5260; /* Vibrant pink */
-  font-size: 3.5em;
+  font-size: 2.5em;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow */
   
   font-weight: 700; /* Bold */
@@ -66,7 +66,7 @@ h1 {
     gap: 10px; /* Space between buttons */
 }
   .answers button {
-    font-size: 1.2em;
+    font-size: 1em;
     padding: 10px 20px;
     margin: 10px;
     border: 2px solid #df5260;
@@ -201,7 +201,7 @@ h1 {
 /* Mobile Styles */
 @media (max-width: 768px) {
   .hello-kitty {
-    width: 80px; /* Smaller size for mobile */
+    width: 90px; /* Smaller size for mobile */
   }
 }
 
